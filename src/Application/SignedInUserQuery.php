@@ -2,6 +2,8 @@
 
 namespace Application;
 
+use Application\DAO\UserData;
+
 class SignedInUserQuery
 {
     public function __construct(

@@ -16,7 +16,6 @@ class AuthenticationService
         return $this->session->get(self::USER_ID_KEY);
     }
 
-
     public function signOut(): void
     {
         $this->session->delete(self::USER_ID_KEY);

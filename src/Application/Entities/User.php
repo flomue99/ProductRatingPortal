@@ -7,7 +7,7 @@ class User
     public function __construct(
         public int    $id,
         public string $userName,
-        public string $passwordHash,)
+        public string $passwordHash)
     {
     }
 
@@ -25,5 +25,4 @@ class User
     {
         return $this->passwordHash;
     }
-
 }
